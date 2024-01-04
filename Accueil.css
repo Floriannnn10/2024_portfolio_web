@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: IBM Plex Mono ExtraLight;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+ /* Debut de Page (logo et menu)  */
+.logo-menuDéroulant{
+
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+    margin-left: 200px; 
+    font-weight: 700;
+}
+
+
+.logo-menu{
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+    margin-left: 640px;
+    font-weight: 700;
+}
+
+
+a:hover{
+    color: gold;
+}
+
+a{
+    text-decoration: overline;
+    color: black;
+}
+
+
+/* INTRODUCTION DE LA PAGE  */
+
+
+.design{
+    display: flex;
+    font-weight: 700;
+}
+
+.Légèrement-moi{
+    color: black;
+    margin-left:200px ;
+    margin-top: 350px;
+    font-weight: 700;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+
+button{
+    box-shadow: 0 0 5px gold, 
+    0 0 25px gold ;
+    color: white;
+    border-radius: 100px;
+    height: 40px;
+    width: 130px;
+    font-weight: 700;
+    background-color: gold;
+    
+}
+
+button:hover{
+    box-shadow: 0 0 5px gold, 0 0 25px gold, 0 0 50px gold,
+    0 0 100px gold, 0 0 200px gold ;
+    background-color: gold;
+    border: none;
+    font-weight: 700;
+}
+.zoom-wrapper{
+    margin-left: 200px;
+}
+
+
+.Touche-Personnelle {
+    display: flex;
+    margin-left: 200px;
+}
+
+
+/* Acceuil about me */
+
+.grand-deuxième{
+
+    display: flex;
+    text-align: start;
+    
+}
+
+.text-about{
+    margin-top: 150px;
+    margin-left: 60px;
+    color: black;
+}
+
+.image-about{
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.image-about img{
+    object-fit: cover;
+    transition: transform 0.8s; 
+}
+
+.image-about:hover img{
+    transform: scale(1.5);
+} 
+
+.identification{
+    margin-top: 10px;
+    color: black;
+    margin-left: 460px;
+    display: flex;
+    gap: 70px;
+}
+
+.bouton{
+    margin-left: 480px;
+    margin-top: 20px;   
+}
+
+
+/* MY SERVICES */
+
+
+.les-blocs-de-services{
+    display: flex;
+    justify-content: center;
+}
+
+
+.services{
+    margin-top: 70px;
+    margin-left: 200px;
+    text-decoration: underline;
+}
+
+.bloc-services-1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+.html{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.css{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.JAVASCRIPT{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.algorithme{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boostrap{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.git{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.UX-DESIGN{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+.bloc-services-2{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+/* footer */
+
+
+footer{
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.reseaux-sociaux{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.footer-fin{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

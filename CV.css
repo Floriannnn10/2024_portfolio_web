@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: IBM Plex Mono ExtraLight;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+.texte{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+
+}
+
+.BIENVENUE{
+    text-decoration: underline;
+}
+
+
+.image-cv{
+    justify-content: center;
+    text-align: center;
+    gap: 80px; 
+}
+
+.image-cv img{
+    margin-top: 20px;
+
+}
+
+
